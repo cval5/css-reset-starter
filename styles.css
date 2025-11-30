@@ -277,6 +277,22 @@ textarea{
     color: var(--dk-gray);
 }
 
+figure{
+    max-width: 100%;
+    margin: 1rem auto;
+}
+
+figure img{
+    max-width: 100%;
+    display: block;
+}
+
+figurecaption{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    text-align: left;
+}
+
 /* Code Styles */
 code{
     font-family: var(--code-fonts);
@@ -297,4 +313,9 @@ pre code{
 code div{
     padding: 1rem;
     overflow: scroll;
+}
+
+footer p{
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
 }
