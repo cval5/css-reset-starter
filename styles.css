@@ -119,6 +119,12 @@ nav a:hover{
     background-color: var(--white);
 }
 
+/*space under header*/
+header nav{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
 /* Styles for the Sections in the Main */
 
 main{
@@ -127,11 +133,13 @@ main{
 
 main > section{
     padding: 1rem 0;
+    margin-top: 2rem;
 }
 
 /* Styles for the h2 & h3 tags */
 h2, h3{
     text-align: center;
+    margin: 1.5rem 0 1rem 0;
 }
 
 /* Paragraph Styles */
